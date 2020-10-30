@@ -1,0 +1,45 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmName": {
+      "value": "GEN-UNIQUE-10"
+    },
+    "adminUsername": {
+      "value": "azuredemo"
+    },
+    "dnsName": {
+      "value": "asrdemo123456"
+    },
+    "adminPassword": {
+      "value": "Beijingga!123456"
+    },
+    "webdeploypkg": {
+      "value": "https://github.com/Azure/azure-quickstart-templates/raw/master/201-web-app-vm-dsc/WebApplication3.zip"
+    },
+    "configurationFunction": {
+      "value": "ConfigureWebServer.ps1\\Main"
+    },
+    "DatabaseServerName": {
+      "value": "asrdemo123456"
+    },
+    "DatabaseServerLocation": {
+      "value": "eastus2"
+    },
+    "databaseServerAdminLogin": {
+      "value": "azuredemo"
+    },
+    "databaseServerAdminLoginPassword": {
+      "value": "Beijingga!123456"
+    },
+    "databaseName": {
+      "value": "demodatabase"
+    },
+    "databaseEdition": {
+      "value": "Basic"
+    },
+    "modulesUrl": {
+      "value": "https://github.com/nonokangwei/armdemo/raw/master/ConfigureWebServerV2.zip"
+    }
+  }
+}
