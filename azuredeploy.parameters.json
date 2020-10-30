@@ -15,7 +15,7 @@
       "value": "Beijingga!123456"
     },
     "webdeploypkg": {
-      "value": "https://github.com/Azure/azure-quickstart-templates/raw/master/201-web-app-vm-dsc/WebApplication3.zip"
+      "value": "https://github.com/nonokangwei/AzureSiteRecoveryDemo/raw/main/WebApplication3.zip"
     },
     "configurationFunction": {
       "value": "ConfigureWebServer.ps1\\Main"
@@ -39,7 +39,7 @@
       "value": "Basic"
     },
     "modulesUrl": {
-      "value": "https://github.com/nonokangwei/armdemo/raw/master/ConfigureWebServerV2.zip"
+      "value": "https://github.com/nonokangwei/AzureSiteRecoveryDemo/raw/main/ConfigureWebServer.zip"
     }
   }
 }
